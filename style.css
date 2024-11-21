@@ -1,0 +1,177 @@
+html, body {
+    height: 100%; /* Гарантує, що html і body займуть всю висоту */
+    margin: 0;    /* Видаляє стандартні зовнішні відступи браузера */
+    padding: 0;   /* Видаляє стандартні внутрішні відступи браузера */
+}
+
+body{
+    background: url(fon.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    min-height: 100vh; /* Висота на весь екран */
+    width: 100%; /* Ширина на весь екран */
+}
+.slots{
+    background: url(slots.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height:700px;
+    display: flex;
+    justify-content: space-between, center;
+    align-items: center;
+}
+#first{
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100px;
+    width:100px;
+    margin-left: 21%;
+    margin-top: 32%;
+}
+#second{
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100px;
+    width:100px;
+    margin-top: 32%;
+    margin-left: 2%;
+    left:4%;
+}
+#third{
+    background-repeat: no-repeat;
+    height: 100px;
+    width:100px;
+    margin-top: 32%;
+    margin-left: 9%;
+}
+#generateBut{
+    background: url(button.png);
+    background-repeat: no-repeat;
+    width:200px;
+    height:1000px;
+    position: relative;
+    left: 75px;
+    top:230px;
+    border:none;
+}
+h2{
+    text-align: center;
+    color:white;
+    border-radius: 5px;
+    background-color: black;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#again{
+    width:350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: black;
+    color: green;
+}
+@media (min-width: 576px){
+    .slots{
+        background: url(slots.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height:400px;
+        display: flex;
+        justify-content: space-between, center;
+        align-items: center;
+    }
+    #generateBut{
+        background: url(button.png);
+        background-size: auto;
+        width:50px;
+        height:500px;
+        position: relative;
+        left: 30px;
+        top:1%;
+        border:none;
+    }
+}
+@media (min-width: 768px) {
+    .slots{
+        background: url(slots.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 400px;
+        height:500px;
+        display: flex;
+        justify-content: space-between, center;
+        align-items: center;
+    }
+    #generateBut{
+        background: url(button.png);
+        background-size: cover;
+        width:100px;
+        height:800px;
+        position: relative;
+        left: 35px;
+        top:180px;
+        border:none;
+    }
+}
+@media (min-width: 992px) {
+    .slots{
+        background: url(slots.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 500px;
+        height:600px;
+        display: flex;
+        justify-content: space-between, center;
+        align-items: center;
+    }
+    #generateBut{
+        background: url(button.png);
+        background-repeat: no-repeat;
+        width:150px;
+        height:900px;
+        position: relative;
+        left: 50px;
+        top:230px;
+        border:none;
+    }
+}
+@media (min-width: 1200px) {
+    .slots{
+        background: url(slots.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 600px;
+        height:700px;
+        display: flex;
+        justify-content: space-between, center;
+        align-items: center;
+    }
+    #generateBut{
+        background: url(button.png);
+        background-repeat: no-repeat;
+        width:200px;
+        height:1000px;
+        position: relative;
+        left: 75px;
+        top:230px;
+        border:none;
+    }
+}
