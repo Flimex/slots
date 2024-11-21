@@ -13,7 +13,7 @@ let second;
 let third;
 resetButton.disabled = true;
 if (name1 != isNaN) {
-    document.getElementById("name").textContent = "";
+    document.getElementById("name").textContent = "Заберіть мої гроші";
 }
 function getRandomElem() {
     return elements[Math.floor(Math.random() * elements.length)];
